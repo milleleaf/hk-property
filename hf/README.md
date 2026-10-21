@@ -19,7 +19,7 @@ configs:
 # Hong Kong property market statistics (RVD, Housing Authority TPS, Land Registry)
 
 Every table of the Rating and Valuation Department's Property Market Statistics, rebuilt weekly by
-[AlreadyOpen/hk-property](https://github.com/AlreadyOpen/hk-property): rents, prices and indices (monthly, quarterly, annual,
+[AlreadyOpen/hk-property](https://github.com/milleleaf/hk-property): rents, prices and indices (monthly, quarterly, annual,
 from 1978-1999 depending on the table), stock, completions, forecast completions, vacancy, take-up, transactions and
 demolitions, for domestic, office, retail, industrial and storage property.
 
@@ -60,7 +60,7 @@ duckdb.sql("""SELECT period_start, series, value FROM 'hf://datasets/alreadyopen
 ```
 
 For web maps, `spacetime-map.json` (RVD), `spacetime-tps.json`, `spacetime-lr.json` and `areas.geojson` are in the bucket
-[alreadyopen/hk-property](https://huggingface.co/buckets/alreadyopen/hk-property). A copy is mirrored to
+[alreadyopen/hk-property](https://huggingface.co/buckets/milleleaf/hk-property). A copy is mirrored to
 [Kaggle](https://www.kaggle.com/datasets/helenkwok/hk-property) after every bake.
 
 ## Source and terms
