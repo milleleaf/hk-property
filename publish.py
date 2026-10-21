@@ -11,7 +11,7 @@ import manifest, sources
 REPO = 'milleleaf/hk-property'
 DATASET_FILES = ['rvd.parquet', 'tps.parquet', 'lr.parquet', 'tables.json', 'areas.parquet', 'spacetime.parquet', 'spacetime.json', 'raw', 'index.json']   # raw: a folder
 BUCKET_FILES = ['spacetime-map.json', 'spacetime-tps.json', 'spacetime-lr.json', 'areas.geojson', 'spacetime.json', 'index.json']   # read by /map
-KAGGLE = ('helenkwok/hk-property', 'AlreadyOpen HK property market statistics')            # mirrored by kaggle_mirror.py (title 6-50 chars)
+KAGGLE = ('helenkwok/hk-property', 'Milleleaf HK property market statistics')            # mirrored by kaggle_mirror.py (title 6-50 chars)
 
 def main():
     o = lambda f: os.path.join(sources.OUT, f); idx = json.load(open(o('index.json')))

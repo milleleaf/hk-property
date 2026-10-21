@@ -32,7 +32,7 @@ NULLS = {'', '-', 'n/a', 'na', 'N/A', 'NA', '–'}
 
 def get(u, tries=4):
     for attempt in range(tries):
-        try: return urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'AlreadyOpen hk-property'}), timeout=120).read()
+        try: return urllib.request.urlopen(urllib.request.Request(u, headers={'User-Agent': 'Milleleaf hk-property'}), timeout=120).read()
         except Exception:
             if attempt == tries - 1: raise
 

@@ -19,7 +19,7 @@ configs:
 # Hong Kong property market statistics (RVD, Housing Authority TPS, Land Registry)
 
 Every table of the Rating and Valuation Department's Property Market Statistics, rebuilt weekly by
-[AlreadyOpen/hk-property](https://github.com/milleleaf/hk-property): rents, prices and indices (monthly, quarterly, annual,
+[milleleaf/hk-property](https://github.com/milleleaf/hk-property): rents, prices and indices (monthly, quarterly, annual,
 from 1978-1999 depending on the table), stock, completions, forecast completions, vacancy, take-up, transactions and
 demolitions, for domestic, office, retail, industrial and storage property.
 
