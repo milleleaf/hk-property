@@ -55,12 +55,12 @@ The latest periods are often provisional (RVD remark P) or partial (a quarter in
 
 ```python
 import duckdb
-duckdb.sql("""SELECT period_start, series, value FROM 'hf://datasets/alreadyopen/hk-property/rvd.parquet'
+duckdb.sql("""SELECT period_start, series, value FROM 'hf://datasets/milleleaf/hk-property/rvd.parquet'
               WHERE "table" = '1.2M' AND series LIKE 'Class A%' ORDER BY period_start DESC LIMIT 6""")
 ```
 
 For web maps, `spacetime-map.json` (RVD), `spacetime-tps.json`, `spacetime-lr.json` and `areas.geojson` are in the bucket
-[alreadyopen/hk-property](https://huggingface.co/buckets/milleleaf/hk-property). A copy is mirrored to
+[milleleaf/hk-property](https://huggingface.co/buckets/milleleaf/hk-property). A copy is mirrored to
 [Kaggle](https://www.kaggle.com/datasets/helenkwok/hk-property) after every bake.
 
 ## Source and terms
